@@ -309,7 +309,7 @@ class _GameBodyState extends State<_GameBody> {
                 s.status == GameStatus.paused)
                 ? Padding(
               padding: const EdgeInsets.symmetric(vertical: 12),
-              child: GameControls(bloc: widget.bloc),
+              child: GameControls(bloc:  widget.bloc),
             )
                 : const SizedBox(height: 6),
           ),
