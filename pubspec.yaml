@@ -1,0 +1,25 @@
+name: brainblocks
+description: BrainBlocks - Tetris-style puzzle with mini brain challenges
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.1.0
+  confetti: ^0.7.0
+  gap: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
